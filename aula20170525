@@ -1,0 +1,25 @@
+#include <stdlib.h>
+#include <stdio.h>
+void imprimepares(int n){
+int i, num;
+for(i=1;i<n;i++){
+if(num%2==0){
+printf("\n num");
+}}}
+
+void imprimeimpar(int n){
+int i, num;
+for(i=1;i<n;i++){
+if (num%2 != 0)
+printf("\n %d",num);
+}
+}
+
+int main ()
+{
+int num;
+printf("digite um numero inteiro: ");
+scanf("%d",&num);
+imprimepares(num);
+imprimeimpar(num);
+}
